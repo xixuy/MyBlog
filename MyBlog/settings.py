@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'blog',
     'user',
     'book',
+    'chart',
     'rest_framework',#添加Django Rest Framework框架
 ]
 

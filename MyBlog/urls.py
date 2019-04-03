@@ -21,4 +21,5 @@ urlpatterns = [
     path('',include('blog.urls')),
     path('user/',include('user.urls')),
     path('book/',include('book.urls')),
+    path('chart/',include('chart.urls')),
 ]
