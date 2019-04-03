@@ -10,6 +10,7 @@ class ArticleAdmin(admin.ModelAdmin):
 
 admin.site.register(Article,ArticleAdmin)
 
+
 class ProductAdmin(admin.ModelAdmin):
     #设置模型字段，用于admin后台数据的表头设置
     list_display = ['id','name','weight','size','type']

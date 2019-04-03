@@ -6,7 +6,7 @@ from blog.models import *
 #自定义数据验证函数
 def weight_validate(value):
     if not str(value).isdigit():
-        raise ValidationError('请输入正确的重量 ')
+        raise ValidationError('请输入正确的重量')
 
 class ProdectForm(forms.Form):
     #设置错误信息并设置样式
